@@ -1,0 +1,332 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+    margin: 20px;   
+}
+nav{
+    display:flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: rgb(11, 10, 10, 0.5);
+}
+.logo {
+    float: left; /* Align the logo to the left */
+  }
+
+.logo img {
+    width: 100px; /* Set the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Optional: Add margin for spacing */
+  }
+
+.navbar-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:flex-end;
+}
+  
+.navbar-links li {
+    margin-right: 20px;
+  }
+  
+.navbar-links li a {
+    text-decoration: none;
+    color:rgb(11, 11, 11);
+    font-size: 20px;
+}
+  
+  
+h1 {
+    margin-top: 50px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+  }
+  
+  .buttons a {
+    padding: 15px 25px;
+    border-radius: 0;  background-color: #3498db;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    margin: 10px;
+  }
+  
+  .buttons a:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Login Form Styles (assuming you don't need to modify these) */
+  
+  
+  /* Shift Login Container 10% to the Right (using calc()) */
+.login-container {
+    float: left;
+    width: 300px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    /* Shift right by 10% using calc() */
+    margin-left: calc(10% - 20px); /* Adjust -20px to compensate for original margin */
+  }
+  
+  /* Center Login Image Within Container */
+  .login-image-container {
+    position: relative; /* Removed absolute positioning */
+    top: 0; /* Reset top position */
+    left: 0; /* Reset left position */
+    width: 100px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+    border-radius: 50%;
+    background-color: white;
+    overflow: hidden;
+    margin: 0 auto; /* Center image horizontally */
+  }
+  
+  
+  .login-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  
+  .login-label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .login-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+  }
+  
+  .login-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .login-button:hover {
+    background-color: #2980b9;
+  }
+  navbarScroll.navbarDark {
+    background-color: black;
+}
+
+.navbar-nav {
+    list-style: none; /* Remove default bullets from <ul> */
+    padding-left: 0; /* Remove default left padding */
+  }
+  
+  .nav-item {
+    margin-right: 15px; /* Optional: Add spacing between navbar items */
+  }
+  
+  .nav-link {
+    color: rgb(19, 10, 10); /* Text color of nav links */
+    padding: 10px 15px; /* Padding around each nav link */
+  }  
+
+
+#admin_page
+/* General styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f0f0f0;
+}
+
+.logo {
+  width: 150px;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+nav {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-links {
+  display: flex;
+}
+
+.navbar-links li {
+  margin-right: 1rem;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+main {
+  padding: 1rem;
+}
+
+.admin-content {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+.card {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.card h3 {
+  margin-bottom: 0.5rem;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #222;
+}
+
+
+/* General Styles */
+
+body {
+  text-align: center;
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+/* Navigation Bar (replace with your navbar styles) */
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+  background-color: rgb(11, 10, 10, 0.5);
+}
+
+.logo {
+  float: left; /* Align the logo to the left */
+}
+
+.logo img {
+  width: 100px; /* Set the width of the logo */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Optional: Add margin for spacing */
+}
+
+.navbar-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-links li {
+  margin-right: 20px;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: rgb(11, 11, 11);
+  font-size: 20px;
+}
+
+/* Content Area */
+
+h1 {
+  margin-top: 50px;
+}
+
+/* Login Form Styles (optional) - Move these to separate files if needed */
+
+/* New User Registration Form Styles */
+
+.new-user-registration {  /* Renamed class for clarity */
+  display:flex;
+  justify-content: center; /* Center the container horizontally */
+  align-items: center; /* Center the container vertically */
+  width: 400px; /* Adjust width as needed */
+  background-color: #92cde2; /* Light blue background */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 50px 0; /* Add vertical spacing */
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%; /* Adjust width as needed */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+.error-message {
+  color: red;
+  font-size: 0.8em;
+  display: none;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+}

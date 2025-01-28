@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Facial Recognition Attendance</title>
+</head>
+<body>
+  <video id="video" width="640" height="480" autoplay></video>
+  <script>
+    navigator.mediaDevices.getUserMedia({ video: true })
+      .then(function(stream) {
+        // Success: Access the webcam stream
+        var video = document.getElementById('video');
+        video.srcObject = stream;
+      })
+      .catch(function(error) {
+        // Error handling: User denied access or an error occurred
+        console.error("Error accessing webcam:", error);
+      });
+  </script>
+</body>
+</html>
